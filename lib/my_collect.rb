@@ -4,7 +4,7 @@ def my_collect(collection)
   if block?
   
   while x < collection.length
-  new_array << yield (collection[x])
+  new_array << yield
   x += 1 
 end
 new_array
